@@ -1,0 +1,67 @@
+.home-search i.addon {
+    padding: 12px;
+    line-height: 1.6;
+    font-size: 2rem;
+  }
+
+  .home-search input {
+    padding: 12px 12px 12px 52px;
+    font-size: 1.9rem;
+  }
+
+  .suggestions a {
+    font-weight: 400;
+    text-transform: none;
+    background: transparent;
+    font-size: 1.3rem;
+    letter-spacing: var(--letter-spacing-13);
+    color: var(--ink-600);
+    padding: 8px 12px;
+    margin: 6px;
+  }
+  .install-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5a5cf2;
+    color: #5a5cf2;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+   
+    border-radius: 5px;
+    padding: 6px ;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+/* Lightning Icon Style */
+.install-button i {
+    margin-right: 8px;
+}
+
+/* Hover Effect */
+.install-button:hover {
+    color: #5a5cf2;
+    
+}
+
+  .suggestions a:hover {
+    background: var(--base);
+  }
+
+  #large-footer {
+    margin-top: 0;
+  }
+
+  nav .logo,
+  nav .search,
+  nav .mobile-links {
+    display: none;
+  }
+
+  .top-nav-holder {
+    background: transparent;
+    border: none;
+  }
