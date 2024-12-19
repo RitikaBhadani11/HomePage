@@ -4,9 +4,15 @@
     font-size: 2rem;
   }
 
+
+  
+
   .home-search input {
     padding: 12px 12px 12px 52px;
-    font-size: 1.9rem;
+    font-size: 1.3 rem;
+   
+  
+    
   }
 
   .suggestions a {
@@ -19,6 +25,11 @@
     padding: 8px 12px;
     margin: 6px;
   }
+  input::placeholder {
+    font-weight: bold;
+    color:rgb(177, 173, 173) ;
+}
+
   .install-button {
     display: inline-flex;
     align-items: center;
@@ -65,3 +76,41 @@
     background: transparent;
     border: none;
   }
+  /* Default navbar style */
+/* Navbar style with shadow effect */
+/* Navbar style */
+nav.u-full-width.no-print {
+  position: sticky;  /* or fixed if you want the navbar to always stay on top */
+  top: 0;  /* Keeps the navbar at the top */
+  width: 100%;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition for shadow and background color */
+  background-color: transparent;  /* Start with a transparent background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Darken the background color when the navbar is scrolled */
+nav.u-full-width.no-print.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Darken the background color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on scroll */
+}
+
+/* Button styles */
+button {
+  background-color: transparent;
+  border: 1px solid #5a5cf2;
+  color: #5a5cf2;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 6px;
+  cursor: pointer;
+}
+
+body.dark-theme button {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* For smooth transition between themes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
